@@ -1,0 +1,8 @@
+#Exercise 174 - Functions
+#Implement a function called my_func() that takes two parameters x and y and divides x by y, also returning the result when the function is called.
+
+def my_func(x, y):
+    return x / y
+ 
+result = my_func(38,19)
+print(result)
