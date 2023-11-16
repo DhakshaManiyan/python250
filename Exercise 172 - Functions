@@ -1,0 +1,8 @@
+Exercise 172 - Functions
+Implement a function called my_func() that creates a variable add which stores the result of adding 10 and 20, and prints out the value of add. Don't forget to also call the function!
+
+def my_func():
+    add = 10 + 20
+    print(add)
+    
+my_func()
