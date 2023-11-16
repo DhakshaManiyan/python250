@@ -1,0 +1,11 @@
+#Exercise 154 - Loops
+#Write code that will iterate over the range starting at 5, up to but not including 25, with a step of 5, and for each element that is between 10 and 21 inclusively print out the result of multiplying that element by the second to last element of the same range. For any other element of the range (outside [10-21]) print Outside! Finally, after the entire range is exhausted print out The end!
+
+#Hint: use nesting!
+for i in range(5,25,5):
+    if 10 <= i <= 21:
+        print(i * range(5,25,5)[-2])
+    else:
+        print("Outside!")
+else:
+    print("The end!")
