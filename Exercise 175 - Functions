@@ -1,0 +1,8 @@
+#Exercise 175 - Functions
+#Implement a function called my_func() that takes 3 parameters x, y and z and raises x to the power of y then adds z, also returning the result when the function is called.
+
+def my_func(x,y,z):
+    return x ** y + z
+ 
+result = my_func(3,3,3)
+print(result)
