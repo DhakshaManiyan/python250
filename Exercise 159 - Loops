@@ -1,0 +1,19 @@
+"""Exercise 159 - Loops
+Insert a continue statement where necessary in order to obtain the following result:
+
+1
+1
+100
+20
+200
+100"""
+x = [1, 2]
+y = [10, 100]
+ 
+for i in x:
+    for j in y:
+        if i % 2 == 0:
+            print(i * j)
+            continue
+        print(i)
+    print(j)
