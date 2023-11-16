@@ -1,0 +1,6 @@
+Exercise 196 - Files
+Add the necessary file access mode on line 1 in order to open test.txt for appending and reading at the same time.
+
+f = open("test.txt", "a+")
+ 
+print(f.mode)
