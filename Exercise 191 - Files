@@ -1,0 +1,6 @@
+#Exercise 191 - Files
+#Add the necessary code in between print's parentheses in order to read the content of test.txt as a string and have the result printed out to the screen.
+
+f = open("test.txt", "r")
+ 
+print(f.read())
