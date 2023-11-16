@@ -1,0 +1,6 @@
+#Exercise 171 - Functions
+#Implement a function called my_func() that simply prints out Hello Python! to the screen and call the function.
+def my_func():
+    print("Hello Python!")
+    
+my_func()
