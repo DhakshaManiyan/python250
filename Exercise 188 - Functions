@@ -1,0 +1,8 @@
+#Exercise 188 - Functions
+#Make the necessary adjustment inside the function in order to get 120 as a result of calling my_func() and have the result printed out to the screen.
+
+def my_func(x):
+    var = 12
+    print(x * var)
+	
+my_func(10)
