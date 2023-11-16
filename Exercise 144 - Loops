@@ -1,0 +1,8 @@
+#Exercise 144 - Loops
+#Write a while loop that prints out the absolute value of x while x is negative. Be careful not to end up with an infinite loop!
+
+x = -7
+ 
+while x < 0:
+    print(abs(x))
+    x = x + 1
