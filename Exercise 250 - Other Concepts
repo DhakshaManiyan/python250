@@ -1,0 +1,10 @@
+Exercise 250 - Other Concepts
+Use the correct function from the itertools module on line 5, in between the parentheses of list(), in order to return the elements for which the lambda function given as an argument returns False.
+
+import itertools
+ 
+lam = lambda x: x < 5
+ 
+result = list(itertools.filterfalse(lam, range(10)))
+ 
+print(result)
