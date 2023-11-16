@@ -1,0 +1,9 @@
+#Exercise 168 - Exceptions
+#Add the necessary clause(s) to the code below so that no matter if the code under try raises any exceptions or not, then the program prints out the string Result! to the screen.
+
+try:
+    print(25 % 0 ** 5 + 5)
+except:
+    print("Bug!")
+finally:
+    print("Result!")
