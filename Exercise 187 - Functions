@@ -1,0 +1,10 @@
+#Exercise 187 - Functions
+#Add the correct line(s) of code inside the function in order to get 100 as a result of calling my_func() and have the result printed out to the screen.
+
+var = 10
+ 
+def my_func(x):
+    var = 5
+    print(x * var)
+	
+my_func(20)
