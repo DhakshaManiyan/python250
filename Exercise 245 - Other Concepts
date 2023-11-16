@@ -1,0 +1,6 @@
+Exercise 245 - Other Concepts
+Write a set comprehension on line 1 that will iterate over range(10, 19) and return a set of its elements divided by 2.5.
+
+cph = {x / 2.5 for x in range(10, 19)}
+ 
+print(cph)
