@@ -1,0 +1,9 @@
+#Exercise 146 - Loops
+#Write code that will iterate over the x list and multiply by 10 only the elements that are greater than 20 and print them out to the screen.
+
+Hint: use nesting!
+x = [10, 12, 13, 14, 17, 19, 21, 22, 25]
+ 
+for i in x:
+    if i > 20:
+        print(i * 10)
