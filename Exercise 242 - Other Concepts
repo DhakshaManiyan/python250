@@ -1,0 +1,6 @@
+Exercise 242 - Other Concepts
+Write a list comprehension on line 1 that will iterate over range(1, 15, 5) and return a list of its elements squared.
+
+cph = [i ** 2 for i in range(1, 15, 5)]
+ 
+print(cph)
