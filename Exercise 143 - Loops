@@ -1,0 +1,8 @@
+#Exercise 143 - Loops
+#Write a while loop that prints out the value of x plus 10 while x is less than or equal to 15 and the remainder of x divided by 5 is 0. Be careful not to end up with an infinite loop!
+
+x = 10
+ 
+while x <= 15 and x % 5 == 0:
+    print(x + 10)
+    x = x + 1
