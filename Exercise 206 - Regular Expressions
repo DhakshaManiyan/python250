@@ -1,0 +1,10 @@
+Exercise 206 - Regular Expressions
+Write code on line 5 in order to match the date Jan 3rd 2009 in the string using the search() method. Use the \d in your solution.
+
+import re
+ 
+s = "Bitcoin was born on Jan 3rd 2009 as an alternative to the failure of the current financial system. In 2017, the price of 1 BTC reached $20000, with a market cap of over $300B."
+ 
+result = re.search(r"(.{3}\s\d\w\w\s\d{4})\s", s)
+ 
+print(result.group(1))
