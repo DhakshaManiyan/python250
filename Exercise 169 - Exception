@@ -1,0 +1,11 @@
+#Exercise 169 - Exceptions
+#Add the necessary clause(s) to the code below so that in case the code under try raises the ZeroDivisionError exception then the program prints out the string Zero! to the screen; additionally, if the code under try raises the IndexError exception then the program prints out the string Index! to the screen.
+
+x = [1, 9, 17, 32]
+ 
+try:
+    print(x[3] % 3 ** 5 + x[4])
+except ZeroDivisionError:
+    print("Zero!")
+except IndexError:
+    print("Index!")
