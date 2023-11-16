@@ -1,0 +1,11 @@
+Exercise 248 - Other Concepts
+Use the correct function from the itertools module on line 6, in between the parentheses of list(), in order to concatenate list1 and list2.
+
+import itertools
+ 
+list1 = [1, 2, 3]
+list2 = [4, 5]
+ 
+result = list(itertools.chain(list1, list2))
+ 
+print(result)
