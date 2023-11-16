@@ -1,0 +1,6 @@
+#Exercise 192 - Files
+#Add the necessary code in between print's parentheses in order to read the content of test.txt as a list where each element of the list is a row in the file, and have the result printed out to the screen.
+
+f = open("test.txt", "r")
+ 
+print(f.readlines())
