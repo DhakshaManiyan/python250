@@ -1,0 +1,10 @@
+#Exercise 193 - Files
+#Add the necessary code on line 5 in order to bring back the cursor at the very beginning of test.txt before reading from the file once again.
+
+f = open("test.txt", "r")
+ 
+f.read()
+ 
+f.seek(0)
+ 
+print(f.read())
