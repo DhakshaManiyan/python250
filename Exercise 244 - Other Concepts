@@ -1,0 +1,6 @@
+Exercise 244 - Other Concepts
+Write a dictionary comprehension on line 1 that will iterate over range(9) and return a dictionary of key-value pairs where the value is equal to the key times 3.
+
+cph = {x: x * 3 for x in range(9)}
+ 
+print(cph)
