@@ -1,0 +1,12 @@
+"""Exercise 163 - Exceptions
+Fix the code below so that it doesn't generate a NameError.
+
+Hint! The result should be 20 200"""
+
+x = [1, 2]
+y = [10, 100]
+ 
+for i in x:
+    for j in y:
+        if i % 2 == 0:
+            print(i * j)
