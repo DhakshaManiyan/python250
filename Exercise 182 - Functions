@@ -1,0 +1,8 @@
+#Exercise 182 - Functions
+#Implement a function called my_func() that takes a single positional parameter x and two default parameters y and z which are equal to 100 and 200 respectively, and adds them together, also returning the result when the function is called.
+
+def my_func(x, y = 100, z = 200):
+    return x + y + z
+ 
+result = my_func(50)
+print(result)
