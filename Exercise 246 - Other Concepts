@@ -1,0 +1,6 @@
+Exercise 246 - Other Concepts
+Write a lambda function on line 1 that takes two parameters x and y and multiplies x with y.
+
+lam = lambda x, y: x * y
+ 
+print(lam(2, 5))
