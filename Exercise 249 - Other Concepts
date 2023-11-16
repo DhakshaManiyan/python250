@@ -1,0 +1,9 @@
+Exercise 249 - Other Concepts
+Use the correct function from the itertools module with a for loop and a nested if/else block in order to return all the numbers starting at 20 and up to 31 with a step of 2. Be careful not to end up with an infinite loop!
+import itertools
+ 
+for i in itertools.count(20, 2):
+    if i < 31:
+        print(i)
+    else:
+        break
