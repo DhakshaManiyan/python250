@@ -1,0 +1,6 @@
+Exercise 247 - Other Concepts
+Write a lambda function on line 1 that takes a list list1 as a parameter, and multiplies each element of range(1, 5) with each element of list1 using a list comprehension.
+
+lam = lambda list1: [x * y for x in range(1, 5) for y in list1]
+ 
+print(lam([1, 2]))
